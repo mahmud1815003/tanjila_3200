@@ -20,7 +20,7 @@ const blinkLink_SPO2 = 'https://blynk.cloud/external/api/get?token=AgtJBsesVKvhj
 const sensorData = 1000 //Blynk
 const time = 1 //Minutes
 const spreadSheetSendingTime = 60 * 1000 * time; //Spreadshset
-const thresholdForBPM = 160; //Alert for hightest BPM
+const thresholdForBPM = 100; //Alert for hightest BPM
 const thresholdForSOP2_1 = 90; //Alert for lowest SPO2
 const thresholdForSOP2_2 = 20; //Alert for lowest SPO2
 
